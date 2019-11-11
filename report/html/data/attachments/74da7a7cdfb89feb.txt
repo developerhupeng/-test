@@ -1,0 +1,20 @@
+INFO     tools.report.log_tool:log_tool.py:34 ----请求用时: 82.046 秒数
+INFO     tools.report.log_tool:log_tool.py:34 -------------------request-------------
+                                              http://api.yansl.com:8084/product/changePriceByProdCode
+                                              User-Agent: python-requests/2.22.0
+                                              Accept-Encoding: gzip, deflate
+                                              Accept: */*
+                                              Connection: keep-alive
+                                              token: eyJ0aW1lT3V0IjoxNTczNDQ0NjE2NjI0LCJ1c2VySWQiOjE5NjIsInVzZXJOYW1lIjoic3RyaW5nNjYifQ==
+                                              Content-Length: 36
+                                              Content-Type: application/x-www-form-urlencoded
+                                              
+                                              skuCode=3Yqw_%E7%99%BD_22&price=6800
+INFO     tools.report.log_tool:log_tool.py:34 ---------------response----------------
+                                              400
+                                              Content-Type: application/json;charset=UTF-8
+                                              Transfer-Encoding: chunked
+                                              Date: Mon, 11 Nov 2019 03:26:56 GMT
+                                              Connection: close
+                                              
+                                              {"timestamp":"2019-11-11T03:26:57.097+0000","status":400,"error":"Bad Request","message":"Required String parameter 'prodCode' is not present","path":"/product/changePriceByProdCode"}

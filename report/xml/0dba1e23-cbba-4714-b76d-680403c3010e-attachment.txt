@@ -1,0 +1,8 @@
+---------------response----------------
+400
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Mon, 11 Nov 2019 03:31:25 GMT
+Connection: close
+
+{"timestamp":"2019-11-11T03:31:26.504+0000","status":400,"error":"Bad Request","message":"Required String parameter 'productCode' is not present","path":"/product/soldOut"}

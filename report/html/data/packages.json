@@ -1,0 +1,93 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test_case.test_prod",
+    "children" : [ {
+      "name" : "全字段正常流_1",
+      "uid" : "8a7e9ec97e95abf6",
+      "parentUid" : "5e45e36a459f0c13288433e74a87862d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573443085830,
+        "stop" : 1573443086061,
+        "duration" : 231
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "修改商品用户_全字段正常流_1",
+      "uid" : "2ed96f5d1b0cc6ee",
+      "parentUid" : "5e45e36a459f0c13288433e74a87862d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573443086071,
+        "stop" : 1573443086177,
+        "duration" : 106
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "根据产品编码批量修改商品价格_全字段正常流_1",
+      "uid" : "6751029c6c3af7c6",
+      "parentUid" : "5e45e36a459f0c13288433e74a87862d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573443086236,
+        "stop" : 1573443086400,
+        "duration" : 164
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : ":产品改为下架后,其下商品全部成为下架_全字段正常流_1",
+      "uid" : "f83b916dd80d54ba",
+      "parentUid" : "5e45e36a459f0c13288433e74a87862d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573443086405,
+        "stop" : 1573443086532,
+        "duration" : 127
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "调整商品库存_全字段正常流_1",
+      "uid" : "dbb75ea95ca15980",
+      "parentUid" : "5e45e36a459f0c13288433e74a87862d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573443086537,
+        "stop" : 1573443086650,
+        "duration" : 113
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "用户充值_全字段正常流_1",
+      "uid" : "aab8add8a72e2ad9",
+      "parentUid" : "5e45e36a459f0c13288433e74a87862d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573443086654,
+        "stop" : 1573443086780,
+        "duration" : 126
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_add_order",
+      "uid" : "826976dc2f4a88f5",
+      "parentUid" : "5e45e36a459f0c13288433e74a87862d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1573443086786,
+        "stop" : 1573443086786,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "test_case.test_prod"
+  } ]
+}

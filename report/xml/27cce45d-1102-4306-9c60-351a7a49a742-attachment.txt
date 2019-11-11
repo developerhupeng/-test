@@ -1,0 +1,11 @@
+-------------------request-------------
+http://api.yansl.com:8084/product/addProd
+User-Agent: python-requests/2.22.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: eyJ0aW1lT3V0IjoxNTczNDQ0ODg1ODI2LCJ1c2VySWQiOjE5NjIsInVzZXJOYW1lIjoic3RyaW5nNjYifQ==
+Content-Length: 181
+Content-Type: application/json
+
+b'{"brand": "\\u8010\\u514b", "colors": ["\\u767d", "\\u84dd", "\\u9ec4"], "price": 2699, "productCode": "GqhS", "productName": "r145", "sizes": ["22", "33", "44"], "type": "\\u670d\\u88c5"}'

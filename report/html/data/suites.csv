@@ -1,0 +1,8 @@
+"Status","Name","Duration in ms","Description"
+"passed","test_case.test_prod#test_add_order","0",""
+"passed","test_case.test_prod#test_post_data","113",""
+"passed","test_case.test_prod#test_get_params","106",""
+"passed","test_case.test_prod#test_post_recharge","126",""
+"passed","test_case.test_prod#test_post_soldOut","127",""
+"passed","test_case.test_prod#test_post_changePrice","164",""
+"passed","test_case.test_prod#test_post_json","231",""

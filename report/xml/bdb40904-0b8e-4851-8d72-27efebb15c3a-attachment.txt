@@ -1,0 +1,19 @@
+INFO     tools.report.log_tool:log_tool.py:34 ----请求用时: 107.617 秒数
+INFO     tools.report.log_tool:log_tool.py:34 -------------------request-------------
+                                              http://api.yansl.com:8084/product/changePrice
+                                              User-Agent: python-requests/2.22.0
+                                              Accept-Encoding: gzip, deflate
+                                              Accept: */*
+                                              Connection: keep-alive
+                                              token: eyJ0aW1lT3V0IjoxNTczNDQ0NjE2NjI0LCJ1c2VySWQiOjE5NjIsInVzZXJOYW1lIjoic3RyaW5nNjYifQ==
+                                              Content-Length: 32
+                                              Content-Type: application/x-www-form-urlencoded
+                                              
+                                              SKU=3Yqw_%E7%99%BD_22&price=6800
+INFO     tools.report.log_tool:log_tool.py:34 ---------------response----------------
+                                              200
+                                              Content-Type: application/json;charset=UTF-8
+                                              Transfer-Encoding: chunked
+                                              Date: Mon, 11 Nov 2019 03:26:56 GMT
+                                              
+                                              {"code":2000,"message":"价格更新成功,3Yqw_白_22价格为6800分。","data":""}

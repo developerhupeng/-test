@@ -1,0 +1,37 @@
+INFO     tools.report.log_tool:log_tool.py:34 ----请求用时: 173.142 秒数
+INFO     tools.report.log_tool:log_tool.py:34 -------------------request-------------
+                                              http://api.yansl.com:8084/login
+                                              User-Agent: python-requests/2.22.0
+                                              Accept-Encoding: gzip, deflate
+                                              Accept: */*
+                                              Connection: keep-alive
+                                              Content-Length: 43
+                                              Content-Type: application/json
+                                              
+                                              b'{"pwd": "string66", "userName": "string66"}'
+INFO     tools.report.log_tool:log_tool.py:34 ---------------response----------------
+                                              200
+                                              Content-Type: application/json;charset=UTF-8
+                                              Transfer-Encoding: chunked
+                                              Date: Mon, 11 Nov 2019 03:31:25 GMT
+                                              
+                                              {"code":2000,"message":"登录成功","data":{"token":"eyJ0aW1lT3V0IjoxNTczNDQ0ODg1ODI2LCJ1c2VySWQiOjE5NjIsInVzZXJOYW1lIjoic3RyaW5nNjYifQ==","userName":"string66"}}
+INFO     tools.report.log_tool:log_tool.py:34 ----请求用时: 220.708 秒数
+INFO     tools.report.log_tool:log_tool.py:34 -------------------request-------------
+                                              http://api.yansl.com:8084/product/addProd
+                                              User-Agent: python-requests/2.22.0
+                                              Accept-Encoding: gzip, deflate
+                                              Accept: */*
+                                              Connection: keep-alive
+                                              token: eyJ0aW1lT3V0IjoxNTczNDQ0ODg1ODI2LCJ1c2VySWQiOjE5NjIsInVzZXJOYW1lIjoic3RyaW5nNjYifQ==
+                                              Content-Length: 181
+                                              Content-Type: application/json
+                                              
+                                              b'{"brand": "\\u8010\\u514b", "colors": ["\\u767d", "\\u84dd", "\\u9ec4"], "price": 2699, "productCode": "GqhS", "productName": "r145", "sizes": ["22", "33", "44"], "type": "\\u670d\\u88c5"}'
+INFO     tools.report.log_tool:log_tool.py:34 ---------------response----------------
+                                              200
+                                              Content-Type: application/json;charset=UTF-8
+                                              Transfer-Encoding: chunked
+                                              Date: Mon, 11 Nov 2019 03:31:25 GMT
+                                              
+                                              {"code":2000,"message":"创建产品成功,产品ID为:485。共生成商品：9件。","data":[{"skuId":null,"productCode":"GqhS","skuCode":"GqhS_白_22","skuName":"r145白22","skuPrice":2699,"color":"白","size":"22","status":null,"createTime":null,"updateTime":null},{"skuId":null,"productCode":"GqhS","skuCode":"GqhS_白_33","skuName":"r145白33","skuPrice":2699,"color":"白","size":"33","status":null,"createTime":null,"updateTime":null},{"skuId":null,"productCode":"GqhS","skuCode":"GqhS_白_44","skuName":"r145白44","skuPrice":2699,"color":"白","size":"44","status":null,"createTime":null,"updateTime":null},{"skuId":null,"productCode":"GqhS","skuCode":"GqhS_蓝_22","skuName":"r145蓝22","skuPrice":2699,"color":"蓝","size":"22","status":null,"createTime":null,"updateTime":null},{"skuId":null,"productCode":"GqhS","skuCode":"GqhS_蓝_33","skuName":"r145蓝33","skuPrice":2699,"color":"蓝","size":"33","status":null,"createTime":null,"updateTime":null},{"skuId":null,"productCode":"GqhS","skuCode":"GqhS_蓝_44","skuName":"r145蓝44","skuPrice":2699,"color":"蓝","size":"44","status":null,"createTime":null,"updateTime":null},{"skuId":null,"productCode":"GqhS","skuCode":"GqhS_黄_22","skuName":"r145黄22","skuPrice":2699,"color":"黄","size":"22","status":null,"createTime":null,"updateTime":null},{"skuId":null,"productCode":"GqhS","skuCode":"GqhS_黄_33","skuName":"r145黄33","skuPrice":2699,"color":"黄","size":"33","status":null,"createTime":null,"updateTime":null},{"skuId":null,"productCode":"GqhS","skuCode":"GqhS_黄_44","skuName":"r145黄44","skuPrice":2699,"color":"黄","size":"44","status":null,"createTime":null,"updateTime":null}]}
