@@ -1,4 +1,4 @@
-def test_post_json(pub_data):
+def test_post_json22(pub_data):
     method = "POST"  #请求方法，全部大写
     feature = "用户模块"  # allure报告中一级分类
     story = '用户登录'  # allure报告中二级分类
