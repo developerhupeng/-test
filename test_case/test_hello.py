@@ -5,7 +5,7 @@ from tools.api import request_tool
 文件名 和方法名要以test_
 类名Test
 '''
-
+print("小鲁，你大爷")
 
 def test_post_json(pub_data):
     method = "POST"  #请求方法，全部大写
