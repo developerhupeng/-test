@@ -6,6 +6,7 @@ from tools.api import request_tool
 类名Test
 '''
 print("小鲁，你大爷")
+print("小姜，你好骚啊")
 
 def test_post_json(pub_data):
     method = "POST"  #请求方法，全部大写
